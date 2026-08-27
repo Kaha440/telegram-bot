@@ -17,8 +17,9 @@ from aiogram.types import (
 # ==========================
 # ТОКЕН БОТА
 # ==========================
+import os
 
-BOT_TOKEN = "8703274155:AAHvcQwkFxiCu37fgw00HOiB_MEu4mojEsI"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 
 # ==========================
